@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab|Shadows+Into+Light");
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    font-size: 75%;
+    line-height: 1.5;
+}
+
+body {
+    background: linear-gradient(to right, rgba(119, 152, 210, 0.8), rgba(58, 58, 170, 0.8));
+    color: #333;
+    margin: -2rem;
+    padding: 4px;
+    box-sizing: border-box;
+    background: ease;
+}
+
+h1 {
+    color: #000033;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 100;
+    text-shadow: 1px 1px 4px black;
+}
+
+main {
+    text-align: center;
+    color: #eee;
+    padding: 1em;
+    max-width: 1500px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+p {
+    font-family: 'Shadows Into Light', sans-serif;
+    color: rgba(200, 200, 220, 1);
+    font-weight: 600;
+}
+
+a {
+    color: rgba(48, 45, 212, 0.822);
+    &:active {
+        color: rgb(255, 0, 255);
+    }
+}
